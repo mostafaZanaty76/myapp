@@ -1,6 +1,4 @@
-import  "./App.css";
-
-
+import "./App.css";
 
 function Login() {
   return (
@@ -9,17 +7,21 @@ function Login() {
         <h2 className="text-center">Login</h2>
         <form action="">
           <p>Username</p>
-          <i></i>
+          {/* <i className="fa-solid fa-user"></i> */}
           <input type="text" placeholder="type your username" />
           <p className="">Password</p>
-          <i></i>
-          <input col="30" type="password" placeholder="type your password" />
+          {/* <i className="fa-solid fa-lock"></i>     */}
+                <input col="30" type="password" placeholder="type your password" />
           <p className="text-end">
-            <a href="#"  >Forget password?</a>
+            <a className="m-1 ">Forget password?</a>
           </p>
-          <button>LOGIN</button>
+          <button className="text-center">LOGIN</button>
           <div className=" text-center icons-content">
-            <p >Or Sign Up Using</p>
+            <p>Or Sign Up Using</p>
+            {/* <i className="fa-brands facebook icon fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-google"></i> */}
+
             <div className="icons">
               <i></i>
               <i></i>
